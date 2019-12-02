@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Good Not Great</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script src="main.js"></script>
+  </head>
+
+
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation" id="nav">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <p class="title is-4">Good Not Great</p>
+        </a>
+        <a
+          role="button"
+          class="navbar-burger"
+          data-target="navMenu"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end"></div>
+
+        <a class="navbar-item"> About </a>
+
+        <a class="navbar-item"> Contact </a>
+      </div>
+    </nav>
+    <form
+          id="contact"
+          action="https://formspree.io/"
+          method="POST"
+        >
+    <div class="field">
+      <label class="label">Name</label> 
+      <input class="input" name="name" type="text" placeholder="Your Name" />
+    </div>
+
+
+    <div class="field">
+      <label class="label">Email</label>
+    <div class="control has-icons-left">
+      <input class="input" type="email" placeholder="Your email">
+      <span class="icon is-small is-left">
+        <i class="fas fa-envelope"></i>
+    </div>
+  </div>
+
+  <div class="field">
+    <label class="label">Message</label>
+    <div class="control">
+      <textarea class="textarea" placeholder="Your message here"></textarea>
+    </div>
+  </div>
+
+  </form> 
+
+    
+
+    </body> 
+
+    </html>
