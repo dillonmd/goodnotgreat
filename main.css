@@ -28,7 +28,7 @@ html {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 30px;
-        max-width: 1000px;
+        max-width: 80%;
         margin: 80px auto 30px;
 }
 
@@ -36,11 +36,11 @@ article {
         position: relative;
 }
       
-.article-img {
+/* .article-img {
         height: 200px;
         width: 100%;
         object-fit: cover;
-}
+} */
 
 
 
